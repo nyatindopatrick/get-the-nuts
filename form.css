@@ -1,0 +1,30 @@
+#main {
+  position: fixed;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background: transparent;
+  backdrop-filter: blur(9px);
+  justify-content: center;
+  align-items: center;
+}
+
+#user-form {
+  width: 50vw;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+#user-form input {
+  width: 80%;
+  height: 2rem;
+}
+
+.hide {
+  display: none !important;
+}

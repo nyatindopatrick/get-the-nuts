@@ -1,42 +1,50 @@
 {
   "name": "get-the-nuts",
   "version": "1.0.0",
-  "description": "",
+  "description": "Phaser 3 endless running game",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --config webpack/prod.js ",
-    "start": "webpack-dev-server --config webpack/base.js --open"
+    "build": "webpack --mode production",
+    "serve": "webpack --mode development",
+    "dev": "webpack-dev-server",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "bootstrap": "^4.5.0",
+    "css-loader": "^3.6.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "file-loader": "^6.0.0",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "jest": "^26.1.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.2.1",
+    "url-loader": "^4.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "leaderboard": "0.0.9",
+    "milsymbol": "^2.0.0",
+    "packagejson": "^1.0.1",
+    "phaser": "^3.24.1",
+    "regenerator-runtime": "^0.13.5",
+    "node-fetch": "^2.6.0"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nyatindopatrick/get-the-nuts.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nyatindopatrick/get-the-nuts/issues"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.7.2",
-    "@babel/preset-env": "^7.7.1",
-    "babel-loader": "^8.0.6",
-    "clean-webpack-plugin": "^3.0.0",
-    "file-loader": "^4.2.0",
-    "html-webpack-plugin": "^3.2.0",
-    "raw-loader": "^3.1.0",
-    "terser-webpack-plugin": "^2.2.1",
-    "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.10",
-    "webpack-dev-server": "^3.9.0",
-    "webpack-merge": "^4.2.2",
-    "css-loader": "^4.0.0",
-    "node-sass": "^4.14.1",
-    "sass-loader": "^9.0.2",
-    "style-loader": "^1.2.1"
-  },
-  "dependencies": {
-    "phaser": "^3.0.0"
-  },
-  "homepage": "https://github.com/nyatindopatrick/get-the-nuts#readme"
+    "url": "https://github.com/nyatindopatrick/get-the-nuts.git/issues"
+  }
 }
