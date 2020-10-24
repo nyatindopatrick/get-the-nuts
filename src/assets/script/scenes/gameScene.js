@@ -19,7 +19,7 @@ class GameScene extends Phaser.Scene {
     this.load.image('platform', '../src/assets/img/platform.png');
     this.load.image('background', '../src/assets/img/mountain.png');
 
-    this.load.audio('play_music', ['../src/assets/audio/black_sun.mp3']);
+    this.load.audio('play_music', ['../src/assets/audio/background.mp3']);
 
 
     // player is a sprite sheet made by 24x48 pixels
