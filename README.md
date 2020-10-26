@@ -17,7 +17,7 @@ A simple Phaser runner game.
 
 ## Live Demo
 
-[Live link](https://5f93f59afc396aa2a3d6eeae--eloquent-williams-726a40.netlify.app/)
+[Live link](https://rawcdn.githack.com/nyatindopatrick/get-the-nuts/0314982f9aaf42eedb6d4a990759c884250316a1/dist/index.html)
 
 ## Authors
 
