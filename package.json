@@ -1,0 +1,56 @@
+{
+  "name": "get-the-nuts",
+  "version": "1.0.0",
+  "description": "Phaser 3 endless running game",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config prod.js ",
+    "start": "webpack-dev-server --config webpack/base.js --open",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.1.0",
+    "bootstrap": "^4.5.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^6.2.1",
+    "css-loader": "^3.6.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "file-loader": "^6.0.0",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "jest": "^26.6.1",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.14.1",
+    "raw-loader": "^4.0.2",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.2.1",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-csstree-validator": "^1.8.0",
+    "stylelint-scss": "^3.18.0",
+    "url-loader": "^4.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "leaderboard": "0.0.9",
+    "milsymbol": "^2.0.0",
+    "packagejson": "^1.0.1",
+    "phaser": "^3.24.1",
+    "regenerator-runtime": "^0.13.5",
+    "node-fetch": "^2.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyatindopatrick/get-the-nuts.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nyatindopatrick/get-the-nuts.git/issues"
+  }
+}
