@@ -18,7 +18,6 @@ class playGame extends Phaser.Scene {
 
     this.scoreBoard.setShadow(3, 3, 'rgba(0,0,0,0.5)', 2);
 
-
     // group with all active mountains.
     this.mountainGroup = this.add.group();
 
@@ -78,7 +77,6 @@ class playGame extends Phaser.Scene {
 
     // adding a mountain
     this.addMountains();
-
 
     // keeping track of added platforms
     this.addedPlatforms = 0;
