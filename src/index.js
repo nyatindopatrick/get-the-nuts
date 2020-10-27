@@ -1,8 +1,8 @@
 /* eslint-disable  no-unused-vars */
 
 import Phaser from 'phaser';
-import config from './assets/script/config/config';
-import SetUserName from './assets/script/script';
+import config from './script/config/config';
+import SetUserName from './script/script';
 
 const userName = new SetUserName();
 
