@@ -17,7 +17,7 @@
 
 ## Live Demo
 
-[Live link](https://eloquent-williams-726a40.netlify.app)
+[Live link](https://get-the-nuts.netlify.app)
 
 ## How to Run the game
 
